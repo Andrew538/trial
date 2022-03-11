@@ -1,6 +1,6 @@
 // Smooth Scroll
       
-const links = document.querySelectorAll(".banner-link");
+const links = document.querySelectorAll(".banner__arrow");
 
 for (const link of links) {
 link.addEventListener("click", clickHandler);

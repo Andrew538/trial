@@ -9,10 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/normalize.css">
-    <!-- <link rel="stylesheet" href="./styles/main.css"> -->
-    <!-- <link rel="stylesheet" href="./styles/st.css">
-    <link rel="stylesheet" href="./styles/min-width.css">
-    <link rel="stylesheet" href="./styles/max-width.css"> -->
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
@@ -20,9 +16,6 @@
         <div class="wrapper">
             <div class="header-container">
                 <header class="header">
-                    <!-- <div class="header-burger">
-                        <button class="burger" onclick="openModal()"></button>
-                    </div> -->
                     <div class="header-item">
                         <a href="index.html" class="header-logo logo-style"></a>
                         <div class="header-burger">
@@ -35,7 +28,7 @@
                                 <li><a href="#">О компании</a></li> 
                             </ul>
                         </nav>
-                        </div>
+                    </div>
                     <div class="header-social site-social">
                         <a href="#" class="header-social__inst"></a>
                         <a href="#" class="header-social__fb"></a>
@@ -43,45 +36,26 @@
                 </header>
             </div>       
         </div>
-        <!-- =============================================== -->      
-            <section class="banner">
-                <!-- <div class="wrapper"> -->
-                    <div class="banner__content">
-                        <div class="banner__container">
-                            <div class="banner__body">
-                                <h1 class="banner__title">онлайн тренировки любой сложности</h1>    
-                                <p class="banner__number"><span class="banner__number-big">&gt;15</span>тренировок</p>                               
-                                <p class="banner__text">в области спортивной физиологии и нутрициологии</p>
-                                <a class="banner__link" href="#">Узнать подробнее</a>
-                                <!-- <a class="banner__arrow" href="#"></a>                            -->
-                            </div>
-                            <a class="banner__arrow" href="#"></a>                           
-    
-                        </div>
-                     
+            
+        <section class="banner">          
+            <div class="banner__content">
+                <div class="banner__container">
+                    <div class="banner__body">
+                        <h1 class="banner__title">онлайн тренировки любой сложности</h1>    
+                        <p class="banner__number"><span class="banner__number-big">&gt;15</span>тренировок<p>     
+                        <p class="banner__text">в области спортивной физиологии и нутрициологии</p>
+                        <a class="banner__link" href="#">Узнать подробнее</a>                                                                                              
                     </div>
-                    <div class="banner__image">
-                        <!-- <div class="banner__cover"> -->
-                            <div class="banner__gradient-left"></div>
-                            <div class="banner__gradient-rigt"></div>
-                        
-                        <img src="./images/girl.jpg" alt="">
-                    <!-- </div> -->
-                    </div>
-                <!-- </div> -->
-                
-            </section>
-               <!-- =============================================================== -->
-               <!-- =============== НОВЫЙ БАННЕР ====================== -->
+                    <a class="banner__arrow" href="#listTimetable"></a>                              
+                </div>                   
+            </div>
+            <div class="banner__image">                   
+                <div class="banner__gradient-left"></div>
+                <div class="banner__gradient-rigt"></div>                      
+                <img src="./images/girl.jpg" alt="">                   
+            </div>               
+        </section>
 
-
-
-
-
-
-
-
-               <!-- ============================================ -->
         <section class="events">
             <div class="wrapper">
                 <h2 class="section-title">Ближайшие события</h2>
@@ -125,15 +99,15 @@
                                 <p class="events-text">вебинар</p>
                             </div>
                         </div>
-                            <span class="events__time">15.07</span>    
-                            <h3 class="events__title">Йога, как стиль <br> жизни</h3>
-                            <button type="button" class="open-modal">Учавствовать</button>
+                        <span class="events__time">15.07</span>    
+                        <h3 class="events__title">Йога, как стиль <br> жизни</h3>
+                        <button type="button" class="open-modal">Учавствовать</button>
                     </div>
                 </div>
             </div>   
         </section>
 
-        <section class="timetable">
+        <section id="listTimetable" class="timetable">
             <div class="wrapper">
                 <div class="timetable__header">
                     <h2 class="title__timetable">Расписание <br> тренировок</h2>
@@ -202,7 +176,7 @@
                 </div> 
             </div>           
         </section>
-        <secton class="mail ">
+        <secton class="mail">
             <div class="mail__bg">
                 <div class="wrapper">
                     <div class="mail-box">                     
@@ -212,8 +186,8 @@
                                 <div class="agreement">
                                    <input id="formEmail" type="text" name="email" class="form__input" placeholder="Ваш e-mail"><br>
                                     <input type="checkbox" id="01" class="checkbox">
-                                    <label class="form__label" for="01">Согласен с обработкой <a        class="form__link activ"
-                                        href="https://annblok.ru/workshop" target="_blank"> <u>персональных данных</u>
+                                    <label class="form__label" for="01">Согласен с обработкой<a        class="form__link activ"
+                                    href="https://annblok.ru/workshop" target="_blank"><u>персональных данных</u>
                                     </a></label>
                                  </div>
                             </div>                          
@@ -271,11 +245,9 @@
         </section>
         <footer class="footer">
             <div class="wrapper">
-                <div class="footer-box">
-                    
+                <div class="footer-box">                   
                     <div class="footer-nav-box">
-                    <div class="footer-logo logo-style"></div>
-
+                        <div class="footer-logo logo-style"></div>
                         <ul class="footer-nav site-nav">
                             <li><a href="index.html">Мероприятия</a></li>
                             <li><a href="#">Расписание</a></li>
