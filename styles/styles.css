@@ -317,7 +317,7 @@ body {
     left: 30px;
     opacity: 0;
     border: none;
-    font-family: 'Montserrat'sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -405,7 +405,7 @@ body {
     color: #2B3541;
 }
 .grid-item-text {
-    font-family: 'Montserrat'sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1159,7 +1159,7 @@ body {
     .yoga__desctop {
         display: none;
     }
-    
+   
     .maraphon__tablet {
         display: block;
     }
@@ -1479,7 +1479,7 @@ body {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        bottom: 0;
+        bottom: -0.9px;
         align-items: end;
     }
     .events-image {
@@ -1636,6 +1636,12 @@ body {
         top: 62px;
         left: 19px;
     }
+    .maraphon__desctop {
+        display: none;
+    }
+    .maraphon__mobile {
+        display: block;
+    }
     .footer-nav {
         gap: calc(45px + 132* ((100vw - 360px ) / 483));
     }
@@ -1701,5 +1707,13 @@ body {
         gap: calc(41px + 132* ((100vw - 360px ) * 1.6/ 483));
     }
 }
-/* @media (max-width:320px) */
+@media (max-width:359px) {
+    .banner__title {
+        font-size: 22px;
+        letter-spacing: 0.02em;
+    }
+
+}
+
+
 
